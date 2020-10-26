@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <title>Лаба 1_Личная карточка</title>
+  <meta charset="utf-8">
+  <style>
+ 
+  </style>
+  <link rel="stylesheet" href="оформление.css">
+ </head>
+ <body>
+	<center>
+		  <h1 class = "style">Личная карточка</h1>
+		  <p><img src=".\Лаб1.jpg"  width="480" height="640"></p>
+  </center>
+ 
+      <p class = "Headings">Попкова Юлия Александровна</p>
+   <p class = "Plain_text" align="justify">
+	     20 лет  Дата рождения: 13.04 2000 <br>
+	     Программист-разработчик <br>
+
+
+	  <p class = "Small_headers">
+		Образовательная организация
+	</p>
+	<p class = "Plain_text" align="justify">
+		Московский государственный технологический университет "МГТУ Станкин",<br>
+		Москва<br>
+		  </p>
+		
+		</div>
+		<p class = "Small_headers">
+			Факультет
+		</p>
+		
+		<p class = "Plain_text" align="justify">
+			Институт информационных систем и технологий <br> 
+		</p>
+		
+		<p class = "Small_headers">
+			Направление 
+		</p>
+		<p class = "Plain_text" align="justify">
+      Информатика и вычислительная техника<br>
+    </p>
+    
+    <p class = "Small_headers">
+			Учебная группа
+		</p>
+		
+		<p class = "Plain_text" align="justify">
+			ИДБ-18-01 <br> 
+		</p>
+  	
+  		
+		<script> // Фон
+            let num= 1;
+                    function changeColor(){
+                     if (num%2==0)
+                     {
+                        document.body.style.backgroundImage = "url('https://cdn.pixabay.com/photo/2017/09/06/14/42/green-2721758_960_720.png')";
+                        num++;
+                     } else{
+                        document.body.style.backgroundImage = "url('https://cdn.pixabay.com/photo/2016/03/27/07/32/light-1282314_1280.jpg')"; 
+                        num++;
+                     }
+                    }
+            </script>		
+
+<center>			
+<input type="submit" class="knopka01" onClick="changeColor();" value="Фон"/>
+</center>
+		<footer>
+			<center>
+			<p class="footer_text"> Связь:  <a href="https://vk.com/ulikp">vk</a>.</p>
+		
+			</center>
+		</footer>
+ </body>
+</html>
